@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
         {user?.email ? (
           <div className="hidden md:flex items-center">
-            <Link
+            {/* <Link
               to="/account"
               className="p-4 hover:opacity-50 duration-100 ease-in-out"
             >
@@ -77,7 +77,7 @@ const Navbar = () => {
               className="bg-button text-button px-5 py-2 mx-2 rounded-2xl shadow-lg hover:opacity-50 duration-100 ease-in-out"
             >
               Sign Out
-            </button>
+            </button> */}
             <Link
               to="/favourites"
               className="p-4 hover:opacity-50 duration-100 ease-in-out"
@@ -103,7 +103,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="hidden md:flex items-center">
-            <Link
+            {/* <Link
               to="/signin"
               className="p-4 hover:opacity-50 duration-100 ease-in-out"
             >
@@ -114,7 +114,7 @@ const Navbar = () => {
               className="bg-button text-button px-5 py-2 mx-2 rounded-2xl shadow-lg hover:opacity-50 duration-100 ease-in-out"
             >
               Sign Up
-            </Link>
+            </Link> */}
             <Link
               to="/favourites"
               className="p-4 hover:opacity-50 duration-100 ease-in-out"

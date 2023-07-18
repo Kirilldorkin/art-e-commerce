@@ -42,7 +42,7 @@ const MobileMenu = ({
               </div>
             </Link>
           </li>
-          <li className="border-b py-6 flex justify-center overflow-hidden">
+          {/* <li className="border-b py-6 flex justify-center overflow-hidden">
             <Link
               to="/account"
               className={nav ? "translate-y-0" : "translate-y-[200%]"}
@@ -51,7 +51,7 @@ const MobileMenu = ({
                 Account
               </div>
             </Link>
-          </li>
+          </li> */}
           <li className="border-b py-6 flex justify-center overflow-hidden">
             <Link
               to="/favourites"
@@ -88,7 +88,7 @@ const MobileMenu = ({
             </div>
           </li>
         </ul>
-        {user?.email ? (
+        {/* {user?.email ? (
           <div
             className={
               nav
@@ -132,7 +132,7 @@ const MobileMenu = ({
               </button>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
