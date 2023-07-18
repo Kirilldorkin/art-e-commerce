@@ -87,7 +87,7 @@ const Footer = () => {
         className="flex py-4 justify-center items-center gap-4"
       >
         <a
-          href="https://github.com/JustAlex-WebDev"
+          href="https://github.com/Kirilldorkin"
           rel="noreferrer"
           target="_blank"
         >
@@ -95,7 +95,7 @@ const Footer = () => {
         </a>
         <SiGmail size={15} className="cursor-pointer hover:opacity-50" />
         <a
-          href="https://www.linkedin.com/in/alexandar-valov-667567242"
+          href="https://www.linkedin.com/in/kirill-dorkin-274777280/"
           rel="noreferrer"
           target="_blank"
         >
